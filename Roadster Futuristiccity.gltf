@@ -1,0 +1,494 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 26910,
+      "max": [
+        1.1012974977493286,
+        1.3699450492858887,
+        2.4439849853515625
+      ],
+      "min": [
+        -1.0990586280822754,
+        0.006009101867675781,
+        -2.4177093505859375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 26910,
+      "max": [
+        0.9998739957809448,
+        0.9998739957809448,
+        0.9997480511665344
+      ],
+      "min": [
+        -0.9998739957809448,
+        -0.9998739957809448,
+        -0.9997480511665344
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 26910,
+      "max": [
+        0.9964196681976318,
+        0.9964196681976318
+      ],
+      "min": [
+        0.0014470233581960201,
+        0.0014470233581960201
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 588,
+      "max": [
+        0.7712326049804688,
+        1.3639068603515625,
+        0.7753347158432007
+      ],
+      "min": [
+        -0.771160364151001,
+        0.9297827482223511,
+        -0.028212428092956543
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 588,
+      "max": [
+        0.22223049402236938,
+        0.9352049231529236,
+        0.6084444522857666
+      ],
+      "min": [
+        -0.22293704748153687,
+        -0.9344984889030457,
+        -0.5962414741516113
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 588,
+      "max": [
+        0.9924178123474121,
+        0.7377220988273621
+      ],
+      "min": [
+        0.008366134949028492,
+        0.1820223182439804
+      ],
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "GLTFExporter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 322920,
+      "byteOffset": 0,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 322920,
+      "byteOffset": 322920,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 215280,
+      "byteOffset": 645840,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7056,
+      "byteOffset": 861120,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7056,
+      "byteOffset": 868176,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4704,
+      "byteOffset": 875232,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1,
+      "byteOffset": 0
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 879936,
+      "uri": "Roadster Futuristiccity.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "image0.png"
+    },
+    {
+      "uri": "image1.png"
+    },
+    {
+      "uri": "image2.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Preview_Vehicle_Roadster_Futuristiccity_D",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1.0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5843137254901961,
+          0.5843137254901961,
+          0.5843137254901961,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.5
+      }
+    },
+    {
+      "name": "Vehicle_Roadster_Skin_Traphiphop_Glass_D",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5843137254901961,
+          0.5843137254901961,
+          0.5843137254901961,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.5
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5
+          },
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "transformData": {
+          "eulerOrder": "ZYX",
+          "rotation": [
+            0.0000025044780613825424,
+            0,
+            0
+          ],
+          "scale": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "parentMatrixWorld": {
+            "elements": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        }
+      },
+      "matrix": [
+        0.800000011920929,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8000000119209282,
+        3.4969111093152355E-8,
+        0.0,
+        0.0,
+        -3.4969111093152355E-8,
+        0.8000000119209282,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "Vehicle_Roadster_StarLord_Body"
+    },
+    {
+      "extras": {
+        "transformData": {
+          "eulerOrder": "ZYX",
+          "rotation": [
+            0.0000025044780613825424,
+            0,
+            0
+          ],
+          "scale": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "parentMatrixWorld": {
+            "elements": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        }
+      },
+      "matrix": [
+        0.800000011920929,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8000000119209282,
+        3.4969111093152355E-8,
+        0.0,
+        0.0,
+        -3.4969111093152355E-8,
+        0.8000000119209282,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 1,
+      "name": "Vehicle_Roadster_StarLord_Glass"
+    },
+    {
+      "extras": {
+        "transformData": {
+          "eulerOrder": "ZYX",
+          "translation": [
+            0.8630621433258057,
+            -0.08057665824890137,
+            0.37136492133140564
+          ],
+          "parentMatrixWorld": {
+            "elements": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        }
+      },
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.8630621433258057,
+        -0.08057665824890137,
+        0.37136492133140564,
+        1.0
+      ],
+      "name": "PriviewAnchorPoint"
+    },
+    {
+      "children": [
+        0,
+        1,
+        2
+      ],
+      "extras": {
+        "transformData": {
+          "eulerOrder": "ZYX",
+          "parentMatrixWorld": {
+            "elements": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        }
+      },
+      "name": "Preview_Vehicle_Roadster_Futuristiccity"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "entity_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "AuxScene",
+      "nodes": [
+        4
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Vehicle_Roadster_Futuristiccity_D.png",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "Vehicle_Roadster_Default_N.png",
+      "sampler": 1,
+      "source": 1
+    },
+    {
+      "name": "Vehicle_Glass_D.png",
+      "sampler": 2,
+      "source": 2
+    }
+  ]
+}
